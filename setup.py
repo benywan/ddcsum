@@ -18,7 +18,7 @@ requires = [
     'six',
     'appdirs',
     'keyring==10.4.0',
-    'lbryschema==0.0.15',
+    'ddcsschema',
 ]
 
 console_scripts = [
@@ -36,7 +36,7 @@ setup(
     entry_points={'console_scripts': console_scripts},
     description="Lightweight DDCScrd Wallet",
     author="DDCS Inc.",
-    author_email="hello@lbry.io",
+    author_email="hello@ddcs.io",
     license="GNU GPLv3",
     url="https://ddcs.io",
     long_description="""Lightweight DDCScrd Wallet""",
